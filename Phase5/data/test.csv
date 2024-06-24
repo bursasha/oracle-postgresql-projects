@@ -1,0 +1,21 @@
+client_first_name,client_last_name,client_phone,client_email,payment_type,payment_is_printed_invoice,service_cost,service_datetime
+John,Doe,123456789012,john.doe@example.com,Bank transfer,true,150.00,2021-01-01 09:01:00
+Jane,Smith,123456789011,jane.smith@example.com,Cash,false,250.00,2021-01-02 10:01:00
+Alice,Johnson,123456789013,alice.johnson@example.com,Card,true,350.00,2021-01-03 11:01:00
+Bob,Brown,123456789014,bob.brown@example.com,Bank transfer,false,450.00,2021-01-04 12:01:00
+Charlie,Davis,123456789015,charlie.davis@example.com,Cash,true,550.00,2021-01-05 13:01:00
+David,Garcia,123456789016,david.garcia@example.com,Card,false,650.00,2021-01-06 14:01:00
+Emma,Miller,123456789017,emma.miller@example.com,Bank transfer,true,750.00,2021-01-07 15:01:00
+Frank,Martinez,123456789018,frank.martinez@example.com,Cash,false,850.00,2021-01-08 16:01:00
+Grace,Hernandez,123456789019,grace.hernandez@example.com,Card,true,950.00,2021-01-09 17:01:00
+Hank,Lopez,123456789020,hank.lopez@example.com,Bank transfer,false,155.00,2021-01-10 09:02:00
+Ivy,Gonzalez,123456789021,ivy.gonzalez@example.com,Cash,true,255.00,2021-01-11 09:03:00
+Jack,Wilson,123456789022,jack.wilson@example.com,Card,false,355.00,2021-01-12 10:03:00
+Kathy,Anderson,123456789023,kathy.anderson@example.com,Bank transfer,true,455.00,2021-01-15 11:03:00
+Leo,Thomas,123456789024,leo.thomas@example.com,Cash,false,555.00,2021-01-16 12:03:00
+Mia,Taylor,123456789025,mia.taylor@example.com,Card,true,665.00,2021-01-17 13:03:00
+Nina,Moore,123456789026,nina.moore@example.com,Bank transfer,false,775.00,2021-01-18 14:03:00
+Oscar,Jackson,123456789027,oscar.jackson@example.com,Cash,true,885.00,2021-01-19 15:03:00
+Pam,Martin,123456789028,pam.martin@example.com,Card,false,925.00,2021-01-20 16:03:00
+Quinn,Lee,123456789029,quinn.lee@example.com,Bank transfer,true,397.00,2021-01-21 17:03:00
+Rick,White,123456789030,rick.white@example.com,Cash,false,123.00,2021-01-22 17:04:00

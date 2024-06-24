@@ -1,0 +1,26 @@
+version: '3.9'
+
+# Persistence volumes:
+volumes:
+
+  postgres-db-data:
+
+# PostgreSQL server configuration:
+services:
+
+  postgres-db:
+    image: bitnami/postgresql:latest
+    container_name: postgres-db
+    restart: unless-stopped
+    environment:
+      - POSTGRESQL_USERNAME=${POSTGRESQL_USERNAME}
+      - POSTGRESQL_PASSWORD=${POSTGRESQL_PASSWORD}
+      - POSTGRESQL_DATABASE=${POSTGRESQL_DATABASE}
+    ports:
+      - ${POSTGRESQL_PORT}:5432
+    volumes:
+      - postgres-db-data:/bitnami/postgresql
+      - ../data:/${POSTGRESQL_DATABASE}/data
+      - ../function:/${POSTGRESQL_DATABASE}/function
+      - ../procedure:/${POSTGRESQL_DATABASE}/procedure
+      - ../script:/${POSTGRESQL_DATABASE}/script
